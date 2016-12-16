@@ -25,6 +25,19 @@ cd objc-dependency-visualizer ;
 open index.html
 ```
 
+### For big projects
+You can use dependency_filter.rb filter to generator a small origin.js
+```
+Usage: dependency_filter [options]
+General options:
+    -p, --path PATH                  Path for origin file
+    -r REGEX                         Regex for filter links
+    -o OUTPUT_FILE                   Output file name
+Common options:
+    -h                               Prints this help
+
+```
+
 ### More specific examples
 Examples are [here](https://github.com/PaulTaykalo/objc-dependency-visualizer/wiki/Usage-examples)
 
